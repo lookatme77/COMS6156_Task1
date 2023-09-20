@@ -18,8 +18,8 @@ async def root():
 @app.get("/hello/{name}")
 async def say_hello(name: str):
     return {
-        "message": f"Hello {name}",
-        "Sender": "Donald Ferguson"
+        "message": f"Awesome cloud developer zl3193 says Hello {name}",
+        "Sender": "Zhuofei Lin"
     }
 
 
